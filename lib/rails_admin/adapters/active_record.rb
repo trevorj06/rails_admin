@@ -289,7 +289,7 @@ module RailsAdmin
       end
 
       def association_foreign_key_lookup(association)
-        association.foreign_key.to_sym
+        association.foreign_key
       end
     end
   end
